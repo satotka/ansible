@@ -6,6 +6,6 @@ run and enter Ansible container
 docker run \
   --rm \
   --volume $(pwd):/workspace \
-  cstdo/ansible \
+  satotka/ansible \
   ansible-playbook playbook-<your recipe>.yml
 ```
