@@ -1,8 +1,8 @@
 FROM ubuntu:bionic
 
 # Install prerequisities for Ansible
-RUN apt-get update &&
-    apt-get -y install python3 python3-nacl python3-pip libffi-dev
+RUN apt-get update \
+ && apt-get -y install python3 python3-nacl python3-pip libffi-dev
 
 # pip install
 # - ansible
