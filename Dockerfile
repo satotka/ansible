@@ -9,7 +9,7 @@ RUN apt-get update \
 # - boto (AWS Resource control)
 # - pywinrm (Windows Remote Connect)
 
-RUN pip install ansible boto pywinrm
+RUN pip3 install ansible boto pywinrm
 
 WORKDIR /workspace
 
